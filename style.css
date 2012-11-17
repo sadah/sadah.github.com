@@ -1,0 +1,40 @@
+body{
+    color: #446;
+    font-family: "optima", "Belleza", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "HGS明朝E", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "Osaka", Verdana, Arial, sans-serif;
+}
+p{
+    text-indent: 1em;
+    margin-bottom: 1em;
+}
+p, ul, ol {
+    max-width: 960px;
+}
+ul, ol {
+    padding-left: 40px;
+}
+li{
+    line-height: 2em;
+}
+a, a:visited{
+    color: #44a;
+    text-decoration: none;
+}
+a:hover{
+    color: #F06;;
+    text-decoration: underline;
+}
+h1 a, h1 a:visited{
+    color: #111;
+}
+h1 a:hover{
+    background-color: #ECACB5;
+    text-decoration: none;
+}
+.alphabet_only{
+    font-size: 1.1em;
+}
+.jp_only{
+    letter-spacing:-0.2em;
+}
+@media(max-width:600px){
+}
