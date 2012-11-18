@@ -70,11 +70,20 @@ article{
     ul {
         list-style-type: none;
         padding-left: 0px;
-
     }
     ul li{
-        font-size: 120%;
         line-height: 1.2em;
+    }
+}
+@media(max-width:480px){
+    h1{
+        font-size: 36px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    footer p{
+        font-size: 12px;
     }
 }
 @media(min-width:641px){
