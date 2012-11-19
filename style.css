@@ -34,14 +34,14 @@ h1 a:hover{
 }
 article{
     margin-top: 130px;
-    margin-top: 0px\9;
+    margin-top: 0px\9; /* for IE8 */
+    *margin-top: 0px; /* for IE7 */
 }
 .alphabet_only{
     font-size: 1.1em;
 }
 .jp_only{
-    letter-spacing: -0.2em;
-    *letter-spacing: 0em;
+    letter-spacing: -0.1em;
 }
 
 @media(max-width:768px){
