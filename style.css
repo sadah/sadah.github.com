@@ -1,13 +1,36 @@
 body{
     background-color: #fff;
     color: #446;
-    font-family: "optima", "Belleza", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "Osaka", Verdana, Arial, sans-serif;
+    font-family: "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "Osaka", Verdana, Arial, sans-serif;
+    margin: 0 auto;
+    line-height: 1;
+    max-width: 960px;
+    padding: 30px;
 }
-h1, h2, h3, h4, h5, p {
+h1, h2, h3, h4, h5{
+    color: #111;
+    font-family: "optima", "Belleza", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "Osaka", Verdana, Arial, sans-serif;
     margin-bottom: 12px;
+    font-weight: 400;
+}
+h1 {
+    font-size: 3em;
+}
+h2 {
+    font-size: 2.25em;
+}
+h3 {
+    font-size: 1.5em;
+}
+h4 {
+    font-size: 1.25em;
+}
+h5 {
+    font-size: 1em;
 }
 p{
     text-indent: 1em;
+    margin-bottom: 12px;
 }
 p, li{
     margin-bottom: 1em;
@@ -35,7 +58,9 @@ h1 a:hover{
 article{
     margin-top: 130px;
     margin-top: 0px\9; /* for IE8 */
-    *margin-top: 0px; /* for IE7 */
+    *margin-top: 0px;  /* for IE7 */
+    margin-bottom: 30px
+
 }
 .alphabet_only{
     font-size: 1.1em;
@@ -93,9 +118,9 @@ article{
         width: 100%;
         top: 0px;
         left: 0px;
-        -webkit-box-shadow: 0px 0px 10px 10px #fff;
-        -moz-box-shadow: 0px 0px 10px 10px #fff;
-        box-shadow: 0px 0px 10px 10px #fff;
+        -webkit-box-shadow: 0px 0px 20px 20px #fff;
+        -moz-box-shadow: 0px 0px 20px 20px #fff;
+        box-shadow: 0px 0px 20px 20px #fff;
     }
     .wrap{
         margin: 0 auto;
