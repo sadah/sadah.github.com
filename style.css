@@ -34,7 +34,7 @@ h1 a:hover{
 }
 article{
     margin-top: 130px;
-    *margin-top: 0px;
+    margin-top: 0px\9;
 }
 .alphabet_only{
     font-size: 1.1em;
